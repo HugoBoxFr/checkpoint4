@@ -1,0 +1,21 @@
+<header class="container-fluid" id="home">
+    <div class="container content">
+        <div class="row me">
+            <div class="picture">
+                <img src="assets/{{ userToDisplay?.avatar }}" alt="{{ userToDisplay?.name }}" title="{{ userToDisplay?.name }}"/>
+            </div>
+
+            <div class="title">
+                <h1>{{ userToDisplay?.firstname }}<span class="red">.</span>{{ userToDisplay?.lastname }}</h1>
+                <h2>{{ userToDisplay?.title }}</h2>
+                <h2>{{ userToDisplay?.specialty }}</h2>
+            </div>
+
+            <a class="btn btn-danger btn-lg" href="#contact" role="button">Engagez moi</a>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-angle-double-down"></i></a>
+        </div>
+    </div>
+</header>

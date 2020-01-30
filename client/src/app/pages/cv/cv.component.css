@@ -1,0 +1,50 @@
+#cv {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('src/assets/bg_cv.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 0;
+}
+
+i {
+    color: #931c3c;
+}
+
+button {
+    float: right;
+    background-color: #931c3c;
+}
+
+button:hover {
+    background-color: rgb(163, 30, 30);
+}
+
+button a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    i {
+        display: none;
+    }
+}

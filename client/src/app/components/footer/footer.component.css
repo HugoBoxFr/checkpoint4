@@ -1,0 +1,137 @@
+footer {
+    background-color: #343a40;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.info a {
+    color: white;
+}
+
+.info .fa, .info .fas {
+    font-weight: 900;
+    width: 20px;
+    text-align: center;
+}
+
+.social ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+}
+
+.social ul li {
+    list-style: none;
+}
+
+.social ul li a {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #931c3c;
+    color: white;
+    display: block;
+}
+
+.social ul li a:hover {
+    background-color: rgb(163, 30, 30);
+}
+
+h4 {
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+form .form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0;
+}
+
+input, textarea, select {
+    width: 100%;
+}
+
+select {
+    height: 30px;
+}
+
+.col-sm-6 {
+    margin-bottom: 0;
+}
+
+.video {
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+video {
+    margin-left: -75%;
+    margin-top: -30%;
+    width: 500px;
+}
+
+.sroll-top {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.sroll-top a {
+    color: white;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .video {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .infos, .social {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .social ul {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .card {
+        margin-bottom: 15px !important;
+    }
+}

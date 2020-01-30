@@ -1,0 +1,68 @@
+#portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #343a40;
+    background-image: url('src/assets/bg_portfolio.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 30%;
+    margin: 15px;
+    padding-top: 15px;
+}
+
+.cadre {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project_title {
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project_title p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.btn {
+    float: right;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.btn-danger {
+    background-color: #931c3c;
+}
+
+.btn-danger:hover {
+    background-color: rgb(163, 30, 30);
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}

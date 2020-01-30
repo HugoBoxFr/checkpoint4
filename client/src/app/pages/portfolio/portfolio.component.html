@@ -1,0 +1,20 @@
+<section id="portfolio" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="card col-sm-12 col-md-4" *ngFor="let project of projects">
+                <div class="cadre">
+                    <img class="card-img-top" src="assets/{{ project.img }}" alt="{{ project.name }}">
+                </div>
+
+                <div class="card-body">
+                    <div class="project_title">
+                        <h5 class="card-title">{{ project.name }}</h5>
+                        <p>{{ project.company }} - {{ project.date }}</p>
+                    </div>
+                    <p class="card-text">{{ project.description }}</p>
+                    <a href="{{ project.url }}" target="_blank" class="btn btn-danger">Visiter le site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

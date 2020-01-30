@@ -1,0 +1,22 @@
+<section id="projects" class="container-fluid">
+    <div class="container">
+        <div class="title">
+            <h2>{{ title }}</h2>
+        </div>
+
+        <div class="row content">
+            <div class="card col-sm-12 col-md-4" *ngFor="let project of projects">
+                <div class="cadre">
+                    <img class="card-img-top" src="assets/{{ project.img }}" alt="{{ project.name }}">
+                </div>
+
+                <div class="card-body">
+                    <div class="project_title">
+                        <h5 class="card-title">{{ project.name }}</h5>
+                        <p>{{ project.company }} - {{ project.date }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

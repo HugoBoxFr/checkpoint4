@@ -1,0 +1,18 @@
+<section id="cv-skills">
+    <div class="technos">
+        <div class="techno" *ngFor="let tech of technos">
+            <img src="assets/{{ tech.url }}" alt="{{ tech.name }}" />
+            <p>{{ tech.name }}</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="languages">
+        <div class="language" *ngFor="let langue of langues">
+            <img src="assets/{{ langue.url }}" alt="{{ langue.name }}" />
+            <p>{{ langue.name }}</p>
+            <p>{{ langue.description }}</p>
+        </div>
+    </div>
+</section>

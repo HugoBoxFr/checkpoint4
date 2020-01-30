@@ -1,0 +1,26 @@
+.menu {
+    justify-content: flex-end;
+    transition: 1s;
+}
+
+.logo {
+    font-family: 'Anton', sans-serif;
+}
+
+.red {
+    color: #931c3c;
+}
+
+nav, .navbar {
+    transition: 1s;
+}
+
+.bg-dark {
+    background-color: rgba(52, 58, 64, 0.3) !important;
+}
+
+.black {
+    background-color: rgba(52, 58, 64, 1) !important;
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}

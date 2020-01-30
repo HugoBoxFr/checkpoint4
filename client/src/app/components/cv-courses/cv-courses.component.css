@@ -1,0 +1,55 @@
+#cv-courses {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 5px 5px;
+    overflow: hidden;
+}
+
+.formation {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+
+.formation:nth-last-child(1) {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.formation p, .formation h4 {
+    margin-bottom: 0;
+}
+
+.title {
+    display: flex;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+i {
+    color: orange;
+}
+
+@media screen and (max-width: 768px) {
+    #cv-courses {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}

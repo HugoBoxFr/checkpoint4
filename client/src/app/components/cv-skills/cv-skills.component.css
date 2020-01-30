@@ -1,0 +1,43 @@
+#cv-skills {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 5px 5px;
+    overflow: hidden;
+}
+
+.technos, .languages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techno, .language {
+    width: 95px;
+    margin: 10px;
+    text-align: center;
+}
+
+.techno img, .language img {
+    width: 50%;
+}
+
+.techno p, .language p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+i {
+    color: orange;
+}
+
+@media screen and (max-width: 768px) {
+    #cv-skills {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .techno, .language {
+        width: 25%;
+        margin: 5px 0;
+    }
+}

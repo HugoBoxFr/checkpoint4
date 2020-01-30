@@ -1,0 +1,9 @@
+<section id="cv-exp">
+    <div class="exp" *ngFor="let ex of exp">
+        <div class="title">
+            <h4><i class="fas fa-cog"></i>&nbsp;{{ ex.name }}</h4><p>&nbsp;/ {{ ex.date_debut }} - {{ ex.date_fin }}</p>
+        </div>
+        <p>{{ ex.description }}</p>
+        <p>{{ ex.company }} - {{ ex.place }}</p>
+    </div>
+</section>

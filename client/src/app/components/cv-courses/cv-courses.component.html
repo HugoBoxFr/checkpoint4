@@ -1,0 +1,9 @@
+<section id="cv-courses">
+    <div class="formation" *ngFor="let form of courses">
+        <div class="title">
+            <h4><i class="fas fa-medal"></i>&nbsp;{{ form.name }}</h4><p>&nbsp;/ {{ form.date_debut }} - {{ form.date_fin }}</p>
+        </div>
+        <p>{{ form.description }}</p>
+        <p>{{ form.school }} - {{ form.place }}</p>
+    </div>
+</section>

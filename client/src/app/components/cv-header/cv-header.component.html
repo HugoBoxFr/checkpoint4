@@ -1,0 +1,19 @@
+<section id="cv-header">
+    <div class="row face">
+        <div class="col-md-4 col-lg-12 faceIN">
+            <div class="picture">
+                <img src="assets/{{ user?.avatar }}" alt="{{ user?.firstname }} {{ user?.lastname }}" />
+            </div>
+        </div>
+    
+        <div class="infos col-md-8 col-lg-12">
+            <h2><i class="fas fa-portrait"></i>&nbsp;{{ user?.firstname }} {{ user?.lastname }}</h2>
+            <h3>{{ user?.title }}</h3>
+            <p>{{ user?.age }} ans</p>
+            <p>{{ user?.city }}</p>
+            <p><a href="tel:{{ user?.phone }}">{{ user?.phone }}</a></p>
+            <p><a href="mailto:{{ user?.mail }}">{{ user?.mail }}</a></p>
+            <p><a href="tel:{{ user?.git }}">{{ user?.git }}</a></p>
+        </div>
+    </div>
+</section>
