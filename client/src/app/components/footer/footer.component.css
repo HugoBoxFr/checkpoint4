@@ -47,10 +47,13 @@ footer {
     background-color: #931c3c;
     color: white;
     display: block;
+    box-shadow: 2px 2px 2px black;
+    transition: .5s;
 }
 
 .social ul li a:hover {
     background-color: rgb(163, 30, 30);
+    box-shadow: 0 0 0 black;
 }
 
 h4 {
@@ -90,6 +93,7 @@ select {
     margin-right: 50px;
     border-radius: 50%;
     border: 2px solid white;
+    box-shadow: 2px 2px 2px black;
 }
 
 video {

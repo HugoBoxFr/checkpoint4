@@ -29,7 +29,6 @@ export class CvSkillsComponent implements OnInit {
   getLanguages() {
     this.userService.getLanguages().subscribe((response: any) => {
       this.langues = response;
-      console.log(this.langues)
     })
   }
 

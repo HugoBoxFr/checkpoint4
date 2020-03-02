@@ -20,7 +20,6 @@ export class PortfolioComponent implements OnInit {
   getProjects() {
     this.userService.getProjects().subscribe((response: any) => {
       this.projects = response;
-      console.log(this.projects)
     })
   }
 }

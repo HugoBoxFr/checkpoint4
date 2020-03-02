@@ -17,6 +17,12 @@
     max-width: 30%;
     margin: 15px;
     padding-top: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
 }
 
 .cadre {
@@ -55,10 +61,12 @@ p {
 
 .btn-danger {
     background-color: #931c3c;
+    transition: .5s;
 }
 
 .btn-danger:hover {
     background-color: rgb(163, 30, 30);
+    box-shadow: 0 0 0 black;
 }
 
 

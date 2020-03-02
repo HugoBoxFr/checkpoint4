@@ -2,7 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #343a40;
-    background-image: url('src/assets/bg_portfolio.jpg');
+    background-image: url('src/assets/bg_portfolio2.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -16,6 +16,7 @@
     max-width: 30%;
     margin: 15px;
     padding-top: 15px;
+    box-shadow: 4px 4px 4px;
 }
 
 .cadre {
@@ -54,10 +55,13 @@ p {
 
 .btn-danger {
     background-color: #931c3c;
+    box-shadow: 2px 2px 2px black;
+    transition: .5s;
 }
 
 .btn-danger:hover {
     background-color: rgb(163, 30, 30);
+    box-shadow: 0 0 0 black;
 }
 
 
